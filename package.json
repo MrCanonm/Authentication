@@ -1,8 +1,8 @@
 {
-  "name": "ultrachat",
+  "name": "authentication",
   "version": "0.0.1",
   "description": "",
-  "author": "",
+  "author": "Luis Daniel",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
