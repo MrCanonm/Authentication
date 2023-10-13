@@ -1,20 +1,23 @@
-// Import the functions you need from the SDKs you need
+// Importa las funciones necesarias desde el SDK de Firebase
 import { initializeApp } from 'firebase/app';
 import { getDatabase } from 'firebase/database';
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration
+// TODO: Agrega los SDK de productos de Firebase que desees utilizar
+// Consulta la documentación de Firebase para obtener más información: https://firebase.google.com/docs/web/setup#available-libraries
+
+// Configuración de Firebase para tu aplicación web
 export const firebaseConfig = {
-  apiKey: 'AIzaSyAKvT5FwSl8JVKRBHQt2Ea7DhqY4UomZJ4',
-  authDomain: 'v-chat-70039.firebaseapp.com',
-  databaseURL: 'https://v-chat-70039-default-rtdb.firebaseio.com',
-  projectId: 'v-chat-70039',
-  storageBucket: 'v-chat-70039.appspot.com',
-  messagingSenderId: '359672821554',
-  appId: '1:359672821554:web:1c21210d50322f8bb9492b',
+  apiKey: 'tu_clave_de_api',
+  authDomain: 'tu_domino.firebaseapp.com',
+  databaseURL: 'https://tu_base_de_datos.firebaseio.com',
+  projectId: 'tu_id_de_proyecto',
+  storageBucket: 'tu_bucket_de_almacenamiento.appspot.com',
+  messagingSenderId: 'tu_ID_de_mensajería',
+  appId: 'tu_ID_de_aplicación',
 };
 
-// Initialize Firebase
+// Inicializa Firebase con la configuración proporcionada
 export const firebaseApp = initializeApp(firebaseConfig);
+
+// Obtiene una referencia a la base de datos de Firebase
 export const firebaseDatabase = getDatabase(firebaseApp);
